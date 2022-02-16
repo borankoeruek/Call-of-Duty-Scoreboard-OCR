@@ -25,5 +25,5 @@ const config = JSON.parse(
 
   const result = await startExtractingFlow(worker, URL, config);
 
-  console.log("results", result);
+  console.log("Results", result);
 })();

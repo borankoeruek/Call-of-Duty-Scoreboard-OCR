@@ -2,7 +2,7 @@ const startExtractingFlow = async (worker, URL, config) => {
   const results = {};
 
   for (const settingName in config.coldwarScoreboard.cropSettings) {
-    console.log("scanning", settingName);
+    console.log("Scanning", settingName);
 
     const currentSettings = config.coldwarScoreboard.cropSettings[settingName];
 
@@ -13,9 +13,14 @@ const startExtractingFlow = async (worker, URL, config) => {
         const result = await worker.recognize(URL, {
           rectangle: currentSettings[index],
         });
+
         const extracedText = result.data.text.replace("\n", "");
 
-        results[settingName + index] = extracedText;
+        if (!results.hasOwnProperty(settingName)) {
+          results[settingName] = [];
+        }
+
+        results[settingName].push(extracedText);
       }
     } else {
       const result = await worker.recognize(URL, {
