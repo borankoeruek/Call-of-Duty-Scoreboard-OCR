@@ -142,4 +142,9 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+
+#sample screeenshots
+sampleScoreboard.png
+Scoreboards
+
 # End of https://www.toptal.com/developers/gitignore/api/node
