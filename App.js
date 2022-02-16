@@ -1,7 +1,7 @@
 import { createWorker, PSM } from "tesseract.js";
 import process, { exit } from "process";
 import { readFile } from "fs/promises";
-import startExtractingFlow from "./startExtractingFlow.js";
+import startExtractingFlow from "./helpers/startExtractingFlow.js";
 
 const config = JSON.parse(
   await readFile(new URL("./helpers/config.json", import.meta.url))

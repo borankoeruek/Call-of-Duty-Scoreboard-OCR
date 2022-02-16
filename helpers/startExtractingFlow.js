@@ -22,21 +22,24 @@ const startExtractingFlow = async (worker, URL, config) => {
 
         results[settingName].push(extracedText);
       }
-    } else {
-      const result = await worker.recognize(URL, {
-        rectangle: currentSettings,
-      });
 
-      const extracedText = result.data.text.replace("\n", "");
-
-      if (settingName.slice(-5) === "Score") {
-        results[settingName] = extractNumbersFromString(extracedText);
-
-        continue;
-      }
-
-      results[settingName] = extracedText;
+      continue;
     }
+
+    const result = await worker.recognize(URL, {
+      rectangle: currentSettings,
+    });
+
+    const extracedText = result.data.text.replace("\n", "");
+
+    if (settingName.slice(-5) === "Score") {
+      // Scores can only be numbers
+      results[settingName] = extractNumbersFromString(extracedText);
+
+      continue;
+    }
+
+    results[settingName] = extracedText;
   }
 
   await worker.terminate();
