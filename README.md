@@ -7,14 +7,18 @@ This tool can read the actual data on Call of Duty Scoreboards and makes the dat
 
 
 
-Usage:
 
+**Sample screenshot:**
+
+![sampleScoreboard](https://user-images.githubusercontent.com/47578609/154305172-afe27565-4dea-4653-9e06-9c71860c661c.png)
+
+**Usage:**
 ```node
 node App.js https://example.com/screenshot.jpg
 ```
 
 
-Example output:
+**Example output:**
 
 ```javascript
 Results {
