@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "tesseract.js": "^2.1.5"
-  }
+  },
+  "type": "module",
+  "name": "project",
+  "version": "1.0.0",
+  "main": "App.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borankoeruek/Call-of-Duty-Scoreboard-OCR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borankoeruek/Call-of-Duty-Scoreboard-OCR/issues"
+  },
+  "homepage": "https://github.com/borankoeruek/Call-of-Duty-Scoreboard-OCR#readme",
+  "description": ""
 }

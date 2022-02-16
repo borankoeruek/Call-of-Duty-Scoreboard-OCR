@@ -1,0 +1,99 @@
+{
+  "coldwarScoreboard": {
+    "persistentData": {
+      "gamemodes": ["hardpoint", "search & destroy", "control"],
+      "maps": [
+        "apocalypse",
+        "checkmate",
+        "express",
+        "garrison",
+        "miami",
+        "moscow",
+        "raid"
+      ]
+    },
+    "cropSettings": {
+      "gamemode": {
+        "width": 361,
+        "height": 62,
+        "left": 217,
+        "top": 183
+      },
+
+      "map": {
+        "width": 170,
+        "height": 54,
+        "left": 574,
+        "top": 186
+      },
+
+      "leftTeamScore": {
+        "width": 336,
+        "height": 112,
+        "left": 604,
+        "top": 227
+      },
+
+      "leftTeamPlayers": [
+        {
+          "width": 670,
+          "height": 28,
+          "left": 276,
+          "top": 363
+        },
+        {
+          "width": 670,
+          "height": 28,
+          "left": 269,
+          "top": 408
+        },
+        {
+          "width": 670,
+          "height": 28,
+          "left": 269,
+          "top": 448
+        },
+        {
+          "width": 670,
+          "height": 28,
+          "left": 269,
+          "top": 491
+        }
+      ],
+
+      "rightTeamPlayers": [
+        {
+          "width": 670,
+          "height": 28,
+          "left": 1015,
+          "top": 363
+        },
+        {
+          "width": 670,
+          "height": 28,
+          "left": 1015,
+          "top": 408
+        },
+        {
+          "width": 670,
+          "height": 28,
+          "left": 1015,
+          "top": 448
+        },
+        {
+          "width": 670,
+          "height": 28,
+          "left": 1015,
+          "top": 491
+        }
+      ],
+
+      "rightTeamScore": {
+        "width": 336,
+        "height": 112,
+        "left": 977,
+        "top": 224
+      }
+    }
+  }
+}
