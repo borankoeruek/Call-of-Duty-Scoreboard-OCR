@@ -1,6 +1,6 @@
 # Call-of-Duty-Scoreboard-OCR
 
-Note: To use this on other Call of Duty titles change the config file to the right coorindates.
+Note: To use this on other Call of Duty titles change the config file to the right coordinates.
 
 
 This tool can read the actual data on Call of Duty Scoreboards and makes the data ready for further usage.
