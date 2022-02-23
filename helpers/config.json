@@ -28,7 +28,7 @@
       },
 
       "leftTeamScore": {
-        "width": 336,
+        "width": 335,
         "height": 112,
         "left": 604,
         "top": 227
@@ -89,7 +89,7 @@
       ],
 
       "rightTeamScore": {
-        "width": 336,
+        "width": 335,
         "height": 112,
         "left": 977,
         "top": 224
